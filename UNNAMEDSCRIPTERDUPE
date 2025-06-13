@@ -58,10 +58,10 @@ dupeButton.MouseButton1Click:Connect(function()
 		clone.Parent = player.Backpack
 		dupeButton.Text = "✅ Duplicated!"
 		wait(2)
-		dupeButton.Text = "🛠️ Dupe Tool"
+		dupeButton.Text = "🌻Dupe Item"
 	else
-		dupeButton.Text = "❌ No Tool Held!"
+		dupeButton.Text = "❌ No Item Held!"
 		wait(2)
-		dupeButton.Text = "🛠️ Dupe Tool"
+		dupeButton.Text = "🌻Dupe Item"
 	end
 end)
